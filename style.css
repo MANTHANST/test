@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding:0x;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f3ecec;
+}
+
+.border {
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.p-1 {
+    padding: 1px
+}
+
+.p-10 {
+    padding: 10px
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.nav-bar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem 0 0.75rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar img {
+    width: 130px;
+}
+
+.location-logo {
+    display: flex;
+    gap: 0.45rem;
+    font-size: 0.90rem;
+}
+
+.grey-small {
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+
+.bold-big {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.c-location {
+    margin-left: 1.15rem;
+}
+
+.search {
+    display: flex;
+    height: 40px;
+    border: 2px solid transparent;
+}
+
+input {
+    width: 425px;
+    border: none;
+    font-size: 1rem;
+    color: black;
+}
+
+select {
+    border: none;
+    color: black;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    background-color: rgb(225, 223, 223);
+    font-size: 0.85rem;
+}
+
+.search-logo {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: orange;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.search-logo i {
+    color: black;
+}
+
+.search:hover {
+    border: 2px solid orange;
+    border-radius: 0.4rem;
+}
+
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    gap: 0.25rem;
+}
+
+.country img {
+    width: 20px;
+    height: 15px;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart i {
+    font-size: 1.55rem;
+}
+
+.cart p {
+    margin-top: 0.75rem;
+}
+
+.sub-nav {
+    background-color: #232f3e;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    padding: 0 0.75rem 0 0.75rem;
+}
+
+.sub-left-menu {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.all-logo i {
+    font-size: 1rem;
+}
+
+.all-logo p {
+    font-weight: 700;
+}
+
+.sub-right-menu {
+    font-weight: 700;
+}
+
+.corousal {
+    background-image: url(images/carousel.jpg);
+    background-size: cover;
+    height: 13.5rem;
+}
+
+.corousal:hover {
+    cursor: pointer;
+}
+
+.image-container {
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0.7%;
+}
+
+.card {
+    height: 25.5rem;
+    width: 24%;
+    background-color: white;
+    padding: 1rem;
+    margin: 0.65rem 0.65rem 0.65rem 0.65rem;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2.1rem 1rem;
+}
+
+.img {
+    width: 45%;
+    height: 6.5rem;
+    margin: 1rem 0 0 0;
+}
+
+.images img {
+    height: 100%;
+    width: 100%;
+} /* To make images fit inside the div*/
+
+img:hover {
+    cursor: pointer;
+}
+
+.images a {
+    color: #0f1111;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.explore {
+    position: relative;
+    top: 3.5rem;
+    font-size: 0.85rem;
+    color: #007185;
+    text-decoration: none;
+}
+
+.explore:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+.belt {
+    background-color: white;
+    height: 19rem;
+    width: 93.5%;
+    margin: 1% 0 1% 1.5%;
+    padding: 1.5rem;
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.title a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+.belt-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    height: 22rem;
+    width: 19%;
+    font-size: 0.75rem;
+}
+
+.belt-images img {
+    height: 90%;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.belt-img {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.offer {
+    background-color: #CC0C39;
+    color: white;
+    padding: 0.40rem;
+    border-radius: 0.2rem;
+}
+
+.deal {
+    font-weight: 700;
+    color: #CC0C39;
+}
+
+.caption:hover {
+    cursor: pointer;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475A;
+    color: white;
+    font-size: 0.85rem;
+    height: 3rem;
+}
+
+.back-to-top:hover {
+    background-color: #485769;
+    cursor: pointer;
+}
+
+.footer-container {
+    height: 11rem;
+    background-color: white;
+    padding: 0.5rem 0.15rem 0 0.5rem;
+}
+
+.footer-sign-in {
+    border: 1px solid lightgrey;
+    border-radius: 0.25rem;
+    height: 70%;
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.sign-in {
+    width: 110%;
+    height: 1.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid orange;
+    font-weight: bold;
+    background-image: linear-gradient(#ffe093, #f8b30a);
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0.5rem -0.6rem;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+}
+
+.footer-sign-in a:hover {
+    color: #C7511F;
+}
+
+.new-customer {
+    font-size: 0.75rem;
+    margin-left: 3rem;
+}
+
+.new-customer a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.footer-1 {
+    background-color: #232f3e;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.top {
+    height: 18rem;
+    padding: 3rem 6rem 2rem 6rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.15);
+}
+
+.top ul {
+    list-style: none;
+    line-height: 1.75rem;
+    cursor: pointer;
+}
+
+.top li:hover {
+    text-decoration: underline;
+}
+
+.top h4 {
+    margin: 0 0 1rem 2.5rem;
+}
+
+.footer-logo {
+    width: 5rem;
+    height: 1.5rem;
+    background-image: url("/images/footer_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    padding: 3rem 6rem 2rem 6rem;
+}
+
+.bottom-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20rem 0 20rem;
+    margin: 0 0 2rem 0;
+}
+
+.language {
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.language select {
+    background: transparent;
+    border: none;
+    color: lightgrey;
+    padding-right: 1rem;
+    width: 5rem;
+}
+
+.bottom-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    padding: 0 5rem 0 5rem;
+    line-height: 0.25rem;
+}
+
+.bottom-bottom li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-2 {
+    background-color: #131a22;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.top-2 {
+    padding: 2rem 3rem 2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-2 p {
+    color: grey;
+}
+
+.top-2 div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+
+.top-2 p:hover {
+    text-decoration: underline;
+}
+
+.top-2 a:hover {
+    text-decoration: underline;
+}
+
+.second {
+    margin-top: 1rem;
+}
+
+.bottom-2 {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    color: #cccccc;
+}
+
+.bottom-2 ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.bottom-2 li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
